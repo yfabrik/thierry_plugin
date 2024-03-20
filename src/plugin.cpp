@@ -1,12 +1,12 @@
 #include "plugin.hpp"
 
+Plugin *pluginInstance;
 
-Plugin* pluginInstance;
-
-
-void init(Plugin* p) {
+void init(Plugin *p)
+{
 	pluginInstance = p;
 
+	p->addModel(modelC4_quinte);
 	// Add modules here
 	// p->addModel(modelMyModule);
 

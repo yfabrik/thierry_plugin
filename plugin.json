@@ -2,8 +2,8 @@
   "slug": "thierry_plugin",
   "name": "thierry_plugin",
   "version": "2.0.0",
-  "license": " \tGPL-3.0-or-later",
-  "brand": "yfabrik",
+  "license": "GPL-3.0-or-later",
+  "brand": "fabrik",
   "author": "yfabrik",
   "authorEmail": "",
   "authorUrl": "",
@@ -12,5 +12,12 @@
   "sourceUrl": "",
   "donateUrl": "",
   "changelogUrl": "",
-  "modules": []
+  "modules": [
+    {
+      "slug": "c4_quinte",
+      "name": "c4_quinte",
+      "description": "make 2 output, 1give c4 the other give its quinte",
+      "tags": []
+    }
+  ]
 }
