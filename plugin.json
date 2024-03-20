@@ -18,6 +18,12 @@
       "name": "c4_quinte",
       "description": "make 2 output, 1give c4 the other give its quinte",
       "tags": []
+    },
+    {
+      "slug": "all_semitones",
+      "name": "all_semitones",
+      "description": "generates note C4 and another note who is +x semitone and +y octave from C4",
+      "tags": []
     }
   ]
 }

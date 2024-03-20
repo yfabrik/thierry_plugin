@@ -7,6 +7,8 @@ void init(Plugin *p)
 	pluginInstance = p;
 
 	p->addModel(modelC4_quinte);
+	p->addModel(modelAll_semitones);
+	
 	// Add modules here
 	// p->addModel(modelMyModule);
 
